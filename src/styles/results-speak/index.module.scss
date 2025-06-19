@@ -1,0 +1,269 @@
+.results_speak__inner {
+  display: flex;
+  align-items: center;
+  gap: 90px;
+}
+
+.results_speak__left {
+  max-width: 640px;
+  margin-top: 20px;
+}
+
+.results_speak__right {
+  max-width: 720px;
+  background-color: #faf8f6;
+  padding: 70px 137px;
+}
+
+.results_speak__img__wrapper {
+  position: relative;
+}
+
+.results_speak__title {
+  max-width: 495px;
+  margin-bottom: 24px;
+}
+
+.results_speak__text {
+  max-width: 480px;
+  font-family: "KumbhSans-Regular", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #4a556c;
+  opacity: 0.7;
+  margin-bottom: 38px;
+}
+
+.circle {
+  position: absolute;
+  top: -30px;
+  right: -35px;
+  width: 96px;
+  height: 96px;
+  background-color: #20ad96;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: "KumbhSans-Bold", sans-serif;
+  font-weight: 700;
+  color: #fff;
+}
+
+@media (max-width: 1880px) {
+  .results_speak__right {
+    flex: 1 0 auto;
+    flex-basis: 50%;
+  }
+  .results_speak__img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1299px) {
+  .results_speak__right {
+    padding: 35px 70px;
+  }
+  .circle {
+    top: 0px;
+    right: 0px;
+  }
+}
+
+@media (max-width: 1230px) {
+  .container-right {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media (max-width: 991px) {
+  .results_speak__inner {
+    flex-direction: column-reverse;
+    gap: 40px;
+  }
+  .results_speak__left {
+    max-width: 100%;
+    width: 100%;
+    margin-top: 0px;
+  }
+  .results_speak__title {
+    max-width: 100%;
+  }
+  .results_speak__text {
+    max-width: 100%;
+    margin-bottom: 25px;
+  }
+}
+
+@media (max-width: 768px) {
+  .results_speak__inner {
+    gap: 25px;
+  }
+}
+
+@media (max-width: 540px) {
+  .results_speak__right {
+    padding: 25px;
+  }
+}
+
+/* form start */
+
+.form_wrapper {
+  max-width: 299px;
+}
+
+.form__input {
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #d0d5dd;
+  box-shadow: 0px 1px 2px 0px #1018280d;
+  padding: 11px 14px 11px 16px;
+  border-radius: 8px;
+  font-family: "Inter-Regular", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333461;
+
+  margin-bottom: 20px;
+
+  transition: all 150ms ease-in;
+}
+
+.form__input::placeholder {
+  font-size: 16px;
+  line-height: 24px;
+  color: #667085;
+  transition: all 150ms ease-in;
+}
+
+.form__input::-webkit-input-placeholder {
+  font-size: 16px;
+  line-height: 24px;
+  color: #667085;
+  transition: all 150ms ease-in;
+}
+
+.form__input::-moz-placeholder {
+  font-size: 16px;
+  line-height: 24px;
+  color: #667085;
+  transition: all 150ms ease-in;
+}
+
+.form__input::-ms-input-placeholder {
+  font-size: 16px;
+  line-height: 24px;
+  color: #667085;
+  transition: all 150ms ease-in;
+}
+
+.form__input:hover {
+  border-color: #333461;
+}
+
+.form__input:focus {
+  border-color: #333461;
+}
+
+.form__input__error {
+  border-color: red;
+}
+
+.form__input:hover::placeholder {
+  color: #333461;
+}
+
+.form__input:hover::-webkit-input-placeholder {
+  color: #333461;
+}
+
+.form__input:hover::-moz-placeholder {
+  color: #333461;
+}
+
+.form__input:hover::-ms-input-placeholder {
+  color: #333461;
+}
+
+.form__input:focus::placeholder {
+  color: #333461;
+}
+
+.form__input:focus::-webkit-input-placeholder {
+  color: #333461;
+}
+
+.form__input:focus::-moz-placeholder {
+  color: #333461;
+}
+
+.form__input:focus::-ms-input-placeholder {
+  color: #333461;
+}
+
+.form__text {
+  font-family: "Inter-Regular", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #667085;
+
+  margin-bottom: 20px;
+}
+
+.form__text a {
+  font-family: "Inter-Regular", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #667085;
+
+  text-decoration: underline !important;
+}
+
+.form__btn {
+  max-width: 299px;
+  width: 100%;
+  padding: 11px 16px;
+  background-color: #20ad96;
+  border: 1px solid #20ad96;
+  border-radius: 8px;
+
+  font-family: "Inter-Medium", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+
+  transition: all 150ms ease-in;
+}
+
+.form__btn:hover {
+  opacity: 0.8;
+}
+
+.form__btn:disabled {
+  cursor: no-drop;
+  opacity: 0.8;
+}
+
+@media (max-width: 991px) {
+  .form_wrapper {
+    max-width: 100%;
+  }
+  .form__text {
+    text-align: center;
+  }
+  .form__btn {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+/* form end */

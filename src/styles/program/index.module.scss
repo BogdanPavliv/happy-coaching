@@ -1,0 +1,117 @@
+.program {
+  padding: 50px 0 66px 0;
+  background-color: #faf8f6;
+}
+
+.program__top {
+  margin-bottom: 45px;
+}
+
+.program__top__inner {
+  max-width: 488px;
+  margin: 0 auto;
+}
+
+.program .section-title {
+  text-align: center;
+}
+
+.program__bottom__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  max-width: 912px;
+  margin: 0 auto;
+}
+
+.program__bottom__title {
+  font-family: "KumbhSans-Bold", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26.4px;
+  letter-spacing: -0.22px;
+  text-align: center;
+  margin-bottom: 74px;
+}
+
+.program__bottom__title span {
+  text-decoration: underline;
+}
+
+.program__bottom__item {
+  max-width: 332px;
+  font-family: "KumbhSans-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  padding-left: 32px;
+  margin-bottom: 28px;
+  position: relative;
+}
+
+.program__bottom__item:last-child {
+  margin-bottom: 0;
+}
+
+.unchecked::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  background-image: url("../../img/section-program/unchecked.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.checked::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  background-image: url("../../img/section-program/checked.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.program__bottom__left {
+  max-width: 446px;
+  padding: 58px 57px 106px 57px;
+}
+
+.program__bottom__right {
+  max-width: 446px;
+  background-color: #fff;
+  padding: 58px 57px 106px 57px;
+}
+
+@media (max-width: 991px) {
+  .program {
+    padding: 50px 0 50px 0;
+  }
+  .program__bottom__wrapper {
+    flex-direction: column;
+    gap: 24px;
+  }
+}
+
+@media (max-width: 540px) {
+  .program__bottom__left {
+    padding: 30px 30px 50px 30px;
+  }
+  .program__bottom__right {
+    padding: 30px 30px 50px 30px;
+  }
+  .program__bottom__title {
+    margin-bottom: 35px;
+  }
+  .program__bottom__item {
+    padding-left: 28px;
+    margin-bottom: 15px;
+  }
+}

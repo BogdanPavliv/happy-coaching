@@ -1,0 +1,59 @@
+.good_to_know {
+  padding: 50px 0 132px 0;
+}
+
+.good_to_know__top {
+  margin-bottom: 64px;
+}
+
+.good_to_know__text {
+  margin-top: 20px;
+  font-family: "KumbhSans-Regular", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #4a556c;
+  text-align: center;
+}
+
+.good_to_know__middle {
+  margin-bottom: 64px;
+}
+
+.good_to_know__bottom__wrapper {
+  background-color: #faf8f6;
+  border-radius: 16px;
+  padding: 32px;
+}
+
+.good_to_know__bottom__title {
+  font-family: "KumbhSans-ExtraBold", sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #333461;
+  margin-bottom: 8px;
+}
+
+.good_to_know__bottom__text {
+  font-family: "KumbhSans-Regular", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #4a556c;
+  margin-bottom: 32px;
+}
+
+@media (max-width: 991px) {
+  .good_to_know {
+    padding: 50px 0 50px 0;
+  }
+  .good_to_know__top {
+    margin-bottom: 32px;
+  }
+  .good_to_know__middle {
+    margin-bottom: 32px;
+  }
+}

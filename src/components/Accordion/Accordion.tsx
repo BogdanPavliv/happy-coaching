@@ -1,21 +1,7 @@
 import React, { useState } from 'react';
-
-interface AccordionProps {
-    sections: {
-        title: string;
-        content: string;
-    }[];
-}
-
-interface AccordionSectionProps {
-    section: {
-        title: string;
-        content: string;
-    };
-    isActiveSection: boolean;
-    setActiveIndex: (index: number | null) => void;
-    sectionIndex: number;
-}
+import styles from '../../styles/accordion/index.module.scss';
+import { AccordionProps } from '../../types/accordion';
+import { AccordionSectionProps } from '../../types/accordion';
 
 const AccordionSection: React.FC<AccordionSectionProps> = ({
     section,
@@ -28,13 +14,13 @@ const AccordionSection: React.FC<AccordionSectionProps> = ({
         setActiveIndex(nextIndex);
     };
     return (
-        <div className="accordion-item">
-            <div className="accordion-title" onClick={toggleSection}>
+        <div className={styles.accordion_item}>
+            <div className={styles.accordion_title} onClick={toggleSection}>
                 <div>{section.title}</div>
-                <button className={isActiveSection ? "accordion-button accordion-button-active" : "accordion-button"} type="button"></button>
+                <button className={isActiveSection ? `${styles.accordion_button} ${styles.accordion_button_active}` : `${styles.accordion_button}`} type="button"></button>
             </div>
             {isActiveSection && (
-                <div className="accordion-content">{section.content}</div>
+                <div className={styles.accordion_content}>{section.content}</div>
             )}
         </div>
     );
@@ -44,7 +30,7 @@ const Accordion: React.FC<AccordionProps> = ({ sections }) => {
     const [activeIndex, setActiveIndex] = useState<number | null>(0);
 
     return (
-        <div className="accordion">
+        <div className={styles.accordion}>
             {sections.map((section, index) => (
                 <AccordionSection
                     section={section}

@@ -1,0 +1,115 @@
+.can_help {
+  padding: 100px 0 60px 0;
+}
+
+.can_help__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 16px;
+}
+
+.can_help__top__left {
+  max-width: 492px;
+  /* width: 100%; */
+}
+
+.can_help__top__right {
+  max-width: 468px;
+}
+
+.can_help__top__right_text {
+  font-family: "KumbhSans-Regular", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+
+.can_help__top__right_text:last-child {
+  margin-bottom: 0;
+}
+
+.can_help__bottom__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.can_help__bottom__item {
+  padding: 40px;
+  cursor: pointer;
+}
+
+.can_help__bottom__item_img {
+  margin-bottom: 32px;
+}
+
+.can_help__bottom__item_title {
+  font-family: "KumbhSans-Bold", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #041434;
+  letter-spacing: -0.48px;
+  margin-bottom: 16px;
+  transition: all 0.3s ease-in;
+}
+
+.can_help__bottom__item:hover .can_help__bottom__item_title {
+  color: #20ad96;
+}
+
+.can_help__bottom__item_text {
+  font-family: "KumbhSans-Regular", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4a556c;
+}
+
+@media (max-width: 991px) {
+  .section-title {
+    font-size: 38px;
+    line-height: 46px;
+  }
+  .can_help {
+    padding: 50px 0 50px 0;
+  }
+  .can_help__top {
+    flex-direction: column;
+    gap: 25px;
+  }
+  .can_help__top__left {
+    max-width: 100%;
+  }
+  .can_help__top__right {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .can_help__bottom__grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .can_help__bottom__item_img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .can_help__bottom__item_title {
+    text-align: center;
+  }
+  .can_help__bottom__item_text {
+    text-align: center;
+  }
+}
+
+@media (max-width: 540px) {
+  .section-title {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  .can_help__bottom__item {
+    padding: 15px;
+  }
+}

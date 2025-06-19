@@ -1,6 +1,5 @@
 import { NavLink } from "react-router-dom";
 import logo from "../../img/logo.svg";
-import "./Footer.scss";
 
 import made_by_img from "../../img/footer/made-by.svg";
 
@@ -8,7 +7,7 @@ import linkedin_img from "../../img/footer/linkedin.svg";
 import facebook_img from "../../img/footer/facebook.svg";
 import website_img from "../../img/footer/website.svg";
 
-export const Footer = () => {
+export const Footer: React.FC = () => {
   return (
     <div className='footer'>
         <div className="container">

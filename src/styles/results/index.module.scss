@@ -1,0 +1,93 @@
+.results {
+  padding: 70px 0 100px 0;
+}
+
+.results__top {
+  margin-bottom: 70px;
+}
+
+.results__top__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.results__cards {
+  display: grid;
+  column-gap: 32px;
+  row-gap: 82px;
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 932px;
+  margin: 0 auto;
+}
+
+.results__card__response {
+  font-family: "KumbhSans-Regular", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #667085;
+  margin-bottom: 32px;
+}
+
+.results__card__img {
+  margin: 0 auto;
+  margin-bottom: 16px;
+}
+
+.results__card__name {
+  font-family: "KumbhSans-Bold", sans-serif;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 24px;
+  text-align: center;
+  color: #333461;
+  margin-bottom: 4px;
+}
+
+.results__card__role {
+  font-family: "KumbhSans-Regular", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4a556c;
+  opacity: 0.5;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.results__card__stars {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+
+@media (max-width: 991px) {
+  .results {
+    padding: 50px 0 50px 0;
+  }
+  .results__top__wrapper {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .results__top__content {
+    width: 100%;
+  }
+  .results__top {
+    margin-bottom: 35px;
+  }
+  .results__cards {
+    column-gap: 25px;
+    row-gap: 40px;
+  }
+}
+
+@media (max-width: 540px) {
+  .results__cards {
+    gap: 25px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

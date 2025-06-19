@@ -5,13 +5,9 @@ import { toggleMenu } from "../../redux/menuSlice";
 import logo from "../../img/logo.svg";
 import useMediaQuery from "../../hooks/useMediaQuery";
 import { NavLink } from "react-router-dom";
-import "./Header.scss";
+import { isTopOfPageProps } from '../../types/nav'
 
-type Props = {
-  isTopOfPage: boolean;
-};
-
-export const Header = ({ isTopOfPage }: Props) => {
+export const Header: React.FC<isTopOfPageProps> = ({ isTopOfPage }) => {
   const isMenuToggled = useSelector((state: RootState) => state.menu.isMenuToggled);
   const dispatch = useDispatch();
   const isAboveMediumScreens = useMediaQuery("(max-width: 991px)");

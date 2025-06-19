@@ -1,13 +1,10 @@
-import React, { ReactNode } from 'react';
+import React from 'react';
+import styles from '../../styles/button/index.module.scss';
+import { ButtonProps } from '../../types/button'
 
-type Props = {
-  children: ReactNode;
-  enementCenter: boolean
-}
-
-const Button: React.FC<Props> = ({ children, enementCenter }) => {
+const Button: React.FC<ButtonProps> = ({ children, enementCenter }) => {
   return (
-    <a className={enementCenter ? "action__button element-center" : "action__button"} href="#">{children}</a>
+    <a className={enementCenter ? `${styles.action__button} element-center` : `${styles.action__button}`} href="#">{children}</a>
   )
 }
 

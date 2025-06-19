@@ -2,10 +2,6 @@ import testimonials_img_1 from "./../img/section-testimonials/testimonials-img-1
 import testimonials_img_2 from "./../img/section-testimonials/testimonials-img-2.jpg";
 import testimonials_img_3 from "./../img/section-testimonials/testimonials-img-3.jpg";
 
-/**
-//  * @type {Array<{name: string, response: string, name: string}>}
- */
-
 export const dataTimonials: Array<{ name: string; response: string, image: string }> = [
     {
         name: "Jane",
@@ -77,6 +73,3 @@ export const dataTimonials2: Array<{ name: string; response: string, image: stri
         rating: "5/5"
     }
 ];
-
-// export {dataTimonials};
-

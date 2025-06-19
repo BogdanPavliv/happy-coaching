@@ -1,0 +1,15 @@
+.action__button {
+  max-width: max-content;
+  padding: 11px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #20ad96;
+  color: #fff;
+  border-radius: 4px;
+  transition: all 150ms ease-in;
+}
+
+.action__button:hover {
+  opacity: .8;
+}

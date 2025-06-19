@@ -1,9 +1,5 @@
-// redux/menuSlice.ts
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
-
-interface MenuState {
-  isMenuToggled: boolean;
-}
+import { MenuState } from '../types/others'
 
 const initialState: MenuState = {
   isMenuToggled: false,

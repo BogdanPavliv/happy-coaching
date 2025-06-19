@@ -1,18 +1,5 @@
-// Оголошуємо інтерфейс для типізації
-interface BreakpointSettings {
-  slidesPerView: number;
-  spaceBetween: number;
-}
+import { SliderTestimonialsSettings } from '../types/others'
 
-interface SliderTestimonialsSettings {
-  slidesPerView: number;
-  spaceBetween: number;
-  breakpoints: {
-    [key: number]: BreakpointSettings;
-  };
-}
-
-// Типізуємо об'єкт sliderTestimonialsSettings
 export const sliderTestimonialsSettings: SliderTestimonialsSettings = {
   slidesPerView: 1,
   spaceBetween: 15,
@@ -32,7 +19,6 @@ export const sliderTestimonialsSettings: SliderTestimonialsSettings = {
   },
 };
 
-// Типізуємо об'єкт sliderTestimonialsSettings
 export const sliderTestimonialsSettings2: SliderTestimonialsSettings = {
   slidesPerView: 1,
   spaceBetween: 15,

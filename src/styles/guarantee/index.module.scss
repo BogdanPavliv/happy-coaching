@@ -1,0 +1,39 @@
+.guarantee {
+  padding: 30px 0 100px 0;
+}
+
+.guarantee__img {
+  margin: 0 auto;
+}
+
+.guarantee__title {
+  font-family: "KumbhSans-ExtraBold", sans-serif;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -0.5px;
+  color: #333461;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.guarantee__text {
+  max-width: 524px;
+  margin: 0 auto;
+  font-family: "KumbhSans-Regular", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #4a556c;
+  opacity: 0.7;
+  text-align: center;
+}
+
+@media (max-width: 991px) {
+  .guarantee {
+    padding: 30px 0 50px 0;
+  }
+  .guarantee__title {
+    margin-bottom: 15px;
+  }
+}
