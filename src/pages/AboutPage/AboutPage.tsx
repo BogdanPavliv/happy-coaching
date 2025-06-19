@@ -1,9 +1,9 @@
-import SectionHome from "../../modules/AboutPage/SectionHome.tsx";
-import SectionCompanies from "../../modules/AboutPage/SectionCompanies.tsx";
-import SectionTestimonials from "../../modules/AboutPage/SectionTestimonials.tsx";
-import SectionTransformLife from "../../modules/AboutPage/SectionTransformLife.tsx";
-import SectionGoodToKnow from "../../modules/ServicesPage/SectionGoodToKnow.tsx";
-import SectionNotified from "../../modules/MainPage/SectionNotified.tsx";
+import SectionHome from "../../modules/AboutPage/SectionHome";
+import SectionCompanies from "../../modules/AboutPage/SectionCompanies";
+import SectionTestimonials from "../../modules/AboutPage/SectionTestimonials";
+import SectionTransformLife from "../../modules/AboutPage/SectionTransformLife";
+import SectionGoodToKnow from "../../modules/ServicesPage/SectionGoodToKnow";
+import SectionNotified from "../../modules/MainPage/SectionNotified";
 
 const AboutPage = () => {
   return (

@@ -1,4 +1,4 @@
-import Button from "../../components/Button/Button.tsx";
+import Button from "../../components/Button/Button";
 import results_img from "../../img/section-results/results-img.jpg";
 import star_img from "../../img/section-results/star.svg";
 import styles from '../../styles/results/index.module.scss';

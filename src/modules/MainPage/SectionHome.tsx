@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import Button from "../../components/Button/Button.tsx";
+import Button from "../../components/Button/Button";
 import section_home_img_1 from "../../img/section-home/section-home-img-1.jpg";
 import waves_img from "../../img/section-home/waves.svg";
 import sight_img from "../../img/section-home/sight.svg";

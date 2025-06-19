@@ -1,4 +1,4 @@
-import Button from "../../components/Button/Button.tsx";
+import Button from "../../components/Button/Button";
 import are_you_ready_img from "../../img/section-dont-miss/are-you-ready-img.jpg";
 import styles from '../../styles/dont-miss/index.module.scss';
 

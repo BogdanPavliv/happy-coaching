@@ -1,9 +1,9 @@
 import SectionResultsSpeak from "../../modules/FreeGuidePage/SectionResultsSpeak";
-import SectionNotified from "../../modules/MainPage/SectionNotified.tsx";
-import SectionResults from "../../modules/ExtraSalesPage/SectionResults.tsx";
-import SectionTransform from "../../modules/ExtraSalesPage/SectionTransform.tsx";
-import SectionVideo from "../../modules/ExtraSalesPage/SectionVideo.tsx";
-import SectionLiveLife from "../../modules/FreeGuidePage/SectionLiveLife.tsx";
+import SectionNotified from "../../modules/MainPage/SectionNotified";
+import SectionResults from "../../modules/ExtraSalesPage/SectionResults";
+import SectionTransform from "../../modules/ExtraSalesPage/SectionTransform";
+import SectionVideo from "../../modules/ExtraSalesPage/SectionVideo";
+import SectionLiveLife from "../../modules/FreeGuidePage/SectionLiveLife";
 
 const FreeGuidePage = () => {
   return (

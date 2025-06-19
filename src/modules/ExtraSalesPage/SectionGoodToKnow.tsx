@@ -1,7 +1,7 @@
 import { accordionData } from "../../utils/accordion.ts";
 
-import Accordion from "../../components/Accordion/Accordion.tsx";
-import Button from "../../components/Button/Button.tsx";
+import Accordion from "../../components/Accordion/Accordion";
+import Button from "../../components/Button/Button";
 
 const SectionGoodToKnow: React.FC = () => {
   return (

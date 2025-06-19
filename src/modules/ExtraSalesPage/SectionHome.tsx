@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import Button from "../../components/Button/Button.tsx";
+import Button from "../../components/Button/Button";
 import self_esteem_img from "../../img/section-self-esteem/self-esteem-img.jpg";
 import waves_img from "../../img/section-home/waves.svg";
 import styles from '../../styles/home/index.module.scss';

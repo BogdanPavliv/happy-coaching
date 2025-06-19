@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import Button from "../../components/Button/Button.tsx";
+import Button from "../../components/Button/Button";
 import page_about_img from "../../img/page-about/page-about-img.jpg";
 import schedule_img from "../../img/page-about/schedule.svg";
 import talk_img from "../../img/page-about/talk.svg";

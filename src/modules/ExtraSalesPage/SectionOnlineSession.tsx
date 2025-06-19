@@ -1,4 +1,4 @@
-import Button from "../../components/Button/Button.tsx";
+import Button from "../../components/Button/Button";
 import online_session_img from "../../img/section-online-session/online-session-img.jpg";
 
 const SectionOnlineSession: React.FC = () => {

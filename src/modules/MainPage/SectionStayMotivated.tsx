@@ -1,4 +1,4 @@
-import Button from "../../components/Button/Button.tsx";
+import Button from "../../components/Button/Button";
 import section_stay_motivated_img_1 from "../../img/section-stay-motivated/section-stay-motivated-img-1.jpg";
 import section_stay_motivated_img_2 from "../../img/section-stay-motivated/section-stay-motivated-img-2.jpg";
 import section_stay_motivated_img_3 from "../../img/section-stay-motivated/section-stay-motivated-img-3.jpg";

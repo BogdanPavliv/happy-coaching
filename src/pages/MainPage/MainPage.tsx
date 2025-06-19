@@ -1,10 +1,10 @@
-import SectionHome from "../../modules/MainPage/SectionHome.tsx";
-import SectionCanHelp from "../../modules/MainPage/SectionCanHelp.tsx";
-import SectionTestimonials from "../../modules/MainPage/SectionTestimonials.tsx";
-import SectionStayMotivated from "../../modules/MainPage/SectionStayMotivated.tsx";
-import SectionDontMiss from "../../modules/MainPage/SectionDontMiss.tsx";
-import SectionOnlineSession from "../../modules/MainPage/SectionOnlineSession.tsx";
-import SectionNotified from "../../modules/MainPage/SectionNotified.tsx";
+import SectionHome from "../../modules/MainPage/SectionHome";
+import SectionCanHelp from "../../modules/MainPage/SectionCanHelp";
+import SectionTestimonials from "../../modules/MainPage/SectionTestimonials";
+import SectionStayMotivated from "../../modules/MainPage/SectionStayMotivated";
+import SectionDontMiss from "../../modules/MainPage/SectionDontMiss";
+import SectionOnlineSession from "../../modules/MainPage/SectionOnlineSession";
+import SectionNotified from "../../modules/MainPage/SectionNotified";
 
 const MainPage = () => {
   return (
