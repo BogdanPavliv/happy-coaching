@@ -1,5 +1,4 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { useEffect, useState } from "react";
 import { Header } from "./components/Header/Header";
 import MainPage from './pages/MainPage/MainPage';
 import ServicesPage from './pages/ServicesPage/ServicesPage';
@@ -11,25 +10,11 @@ import { Footer } from "./components/Footer/Footer";
 import ScrollToTop from "./utils/scrollToTop";
 
 function App() {
-  
-  const [isTopOfPage, setIsTopOfPage] = useState<boolean>(true);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY === 0) {
-        setIsTopOfPage(true);
-      }
-      if (window.scrollY !== 0) setIsTopOfPage(false);
-    };
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
-  
   return (
     <>
       <Router>
         <ScrollToTop/>
-        <Header isTopOfPage={isTopOfPage}/>
+        <Header />
         <Routes>
           <Route path='/' element={<MainPage/>}/>
           <Route path='/services' element={<ServicesPage/>}/>
