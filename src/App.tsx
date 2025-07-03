@@ -14,7 +14,7 @@ function App() {
     <>
       <Router>
         <ScrollToTop/>
-        <Header />
+        <Header/>
         <Routes>
           <Route path='/' element={<MainPage/>}/>
           <Route path='/services' element={<ServicesPage/>}/>
